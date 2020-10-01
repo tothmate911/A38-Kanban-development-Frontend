@@ -1,9 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import { getAuthorizationCodeUrl } from '../context/Urls';
 
 const NavLinks = styled.div`
-  width = 300px;
+  width: 100px;
 `;
 
 function Header() {
@@ -13,14 +14,17 @@ function Header() {
         <Link className="navbar-brand text-white" to="/">
           <b>Kanban</b>Sync
         </Link>
+        <button onClick={() => (window.location = getAuthorizationCodeUrl)}>
+          Login
+        </button>
         <ul className="navbar-nav mr-auto"></ul>
-        <NavLinks className="row">
-          <Link className="text-white" href="(logout or user page)">
+        <NavLinks className="row pr-1">
+          <Link className="text-white" to="(logout or user page)">
             <div className="col p-2">
               <i className="fas fa-power-off"></i>
             </div>
           </Link>
-          <Link className="text-white mr-3" href="(filter)">
+          <Link className="text-white" to="(filter)">
             <div className="col p-2">
               <i className="fas fa-cogs"></i>
             </div>
