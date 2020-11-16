@@ -11,7 +11,7 @@ Our application uses **OAuth** to access the datas in Gitlab. We are using **gra
 This is the frontend of the application, which is written in **React**.
 The backend is a Spring application (https://github.com/CsapoKrisztian/A38-Kanban-development).
 
-For configuration and deployment, please see the Readme file of the [backend repository](https://github.com/CsapoKrisztian/A38-Kanban-development).
+For configuration and deployment, please see the Readme file of the [backend repository](https://github.com/tothmate911/A38-Kanban-development-Backend).
 
 ## Usage
 
