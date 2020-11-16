@@ -9,9 +9,9 @@ With KanbanSync you can retrieve, filter and manipulate your Gitlab issues. The 
 Our application uses **OAuth** to access the datas in Gitlab. We are using **graphQL API** to get the issues from Gitlab, and then we show them on a kanban board.
 
 This is the frontend of the application, which is written in **React**.
-The backend is a Spring application (https://github.com/CsapoKrisztian/A38-Kanban-development).
+The backend is a Spring application (https://github.com/tothmate911/A38-Kanban-development-Backend).
 
-For configuration and deployment, please see the Readme file of the [backend repository](https://github.com/CsapoKrisztian/A38-Kanban-development).
+For configuration and deployment, please see the Readme file of the [backend repository](https://github.com/tothmate911/A38-Kanban-development-Backend).
 
 ## Usage
 
