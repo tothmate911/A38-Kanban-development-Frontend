@@ -13,7 +13,7 @@ export const getAssigneeBox = (assignee) => {
     avatarSrc =
       assignee.avatarUrl.indexOf("https") !== -1
         ? assignee.avatarUrl
-        : `${process.env["REACT_APP_GITLAB_SERVER"]}${assignee.avatarUrl}`;
+        : `${process.env["REACT_APP_GITLABSERVER"]}${assignee.avatarUrl}`;
   }
   let assigneeCircle = "";
   if (assignee != null) {

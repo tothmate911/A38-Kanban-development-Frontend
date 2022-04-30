@@ -5,7 +5,7 @@ export const StatusContext = createContext();
 
 export const StatusProvider = (props) => {
   const [statuses, statusesAreLoading] = useApiCall(
-    `${process.env['REACT_APP_SERVER']}${process.env['REACT_APP_SERVER_STATUSES']}`,
+    `${process.env['REACT_APP_MYSERVER']}${process.env['REACT_APP_SERVER_STATUSES']}`,
     'GET'
   );
 

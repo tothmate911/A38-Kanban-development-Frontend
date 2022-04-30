@@ -16,9 +16,9 @@ const useToken = (getTokenUrl) => {
       .post(
         getTokenUrl,
         {
-          appId: `${process.env['REACT_APP_GITLAB_APP_ID']}`,
-          appSecret: `${process.env['REACT_APP_GITLAB_APP_SECRET']}`,
-          redirectUri: `${process.env['REACT_APP_APPLICATION']}${process.env['REACT_APP_SERVER_TOKEN']}`,
+          appId: `${process.env['REACT_APP_GITLABAPP_ID']}`,
+          appSecret: `${process.env['REACT_APP_GITLABAPP_SECRET']}`,
+          redirectUri: `${process.env['REACT_APP_MYAPPLICATION']}${process.env['REACT_APP_SERVER_TOKEN']}`,
         },
         { withCredentials: true }
       )
