@@ -14,8 +14,8 @@ const AuthController = () => {
   /**
    * Gitlab will redirect to /getToken Route
    */
-  const redirectUri = `${process.env['REACT_APP_MYAPPLICATION']}${process.env['REACT_APP_TOKEN']}`;
-  const getAuthorizationCodeUrl = `${process.env['REACT_APP_GITLABSERVER']}/oauth/authorize?client_id=${process.env['REACT_APP_GITLABAPP_ID']}&redirect_uri=${redirectUri}&response_type=code&scope=api`;
+  const redirectUri = `${process.env['REACT_APP_APPLICATION']}${process.env['REACT_APP_TOKEN']}`;
+  const getAuthorizationCodeUrl = `${process.env['REACT_APP_GITLAB_SERVER']}/oauth/authorize?client_id=${process.env['REACT_APP_GITLAB_APP_ID']}&redirect_uri=${redirectUri}&response_type=code&scope=api`;
 
   let content = <Loading />;
 

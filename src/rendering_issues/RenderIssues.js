@@ -27,7 +27,7 @@ const RenderIssues = () => {
     objectIssuesMapIsLoading,
     setObjectIssuesMap,
   ] = useApiCall(
-    `${process.env['REACT_APP_MYSERVER']}${urlGetIssues}`,
+    `${process.env['REACT_APP_SERVER']}${urlGetIssues}`,
     'POST',
     filterProjectIds,
     filterMilestoneTitles,

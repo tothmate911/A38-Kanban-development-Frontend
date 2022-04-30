@@ -4,7 +4,7 @@ import Label from './Label';
 
 const ProjectLabels = ({ selectedProjectIds, setSelectedProjectIds }) => {
   const [projects, projectsAreLoading] = useApiCall(
-    `${process.env['REACT_APP_MYSERVER']}/projects`,
+    `${process.env['REACT_APP_SERVER']}/projects`,
     'GET'
   );
 

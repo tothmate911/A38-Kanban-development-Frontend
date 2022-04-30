@@ -3,7 +3,7 @@ import useApiCall from '../../hooks/useApiCall';
 
 function MilestoneDropDown({ selectedProjectIds, setSelectedMilestoneTitles }) {
   const [milestoneTitles, milestoneTitlesAreLoading] = useApiCall(
-    `${process.env['REACT_APP_MYSERVER']}/milestones`,
+    `${process.env['REACT_APP_SERVER']}/milestones`,
     'POST',
     selectedProjectIds
   );

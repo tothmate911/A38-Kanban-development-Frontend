@@ -14,7 +14,7 @@ const updateStatusOnBackend = (newStatusTitle, issueId) => {
   axios({
     method: 'POST',
     withCredentials: true,
-    url: `${process.env['REACT_APP_MYSERVER']}${process.env['REACT_APP_SERVER_UPDATE_STATUS']}`,
+    url: `${process.env['REACT_APP_SERVER']}${process.env['REACT_APP_SERVER_UPDATE_STATUS']}`,
     data: { issueId, newStatusTitle },
   }).catch((error) => console.log(error));
 };
@@ -23,7 +23,7 @@ const updateAssigneeOnBackend = (newAssigneeId, issueId) => {
   axios({
     method: 'POST',
     withCredentials: true,
-    url: `${process.env['REACT_APP_MYSERVER']}${process.env['REACT_APP_SERVER_UPDATE_ASSIGNEE']}`,
+    url: `${process.env['REACT_APP_SERVER']}${process.env['REACT_APP_SERVER_UPDATE_ASSIGNEE']}`,
     data: { issueId, newAssigneeId },
   }).catch((error) => console.log(error));
 };

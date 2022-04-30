@@ -8,7 +8,7 @@ const StoryLabels = ({
   setSelectedStoryTitles,
 }) => {
   const [allStoryTitles, allStoryTitlesAreLoading] = useApiCall(
-    `${process.env['REACT_APP_MYSERVER']}${process.env['REACT_APP_SERVER_STORIES']}`,
+    `${process.env['REACT_APP_SERVER']}${process.env['REACT_APP_SERVER_STORIES']}`,
     'POST',
     selectedProjectIds
   );

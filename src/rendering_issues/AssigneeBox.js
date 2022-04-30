@@ -15,7 +15,7 @@ const AssigneeBox = (assignee) => {
   let avatarSrc =
     assignee.avatarUrl.indexOf('http') !== -1
       ? assignee.avatarUrl
-      : `${process.env['REACT_APP_GITLABSERVER']}${assignee.avatarUrl}`;
+      : `${process.env['REACT_APP_GITLAB_SERVER']}${assignee.avatarUrl}`;
 
   let assigneeCircle = (
     <CircleButton size={'60px'}>

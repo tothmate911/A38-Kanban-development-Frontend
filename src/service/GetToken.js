@@ -14,7 +14,7 @@ const GetToken = () => {
   let params = new URLSearchParams(search);
   let code = params.get("code");
 
-  const getTokenUrl = `${process.env["REACT_APP_MYSERVER"]}${process.env["REACT_APP_SERVER_TOKEN"]}?code=${code}`;
+  const getTokenUrl = `${process.env["REACT_APP_SERVER"]}${process.env["REACT_APP_SERVER_TOKEN"]}?code=${code}`;
   const [gotToken, setGotToken] = useContext(AccessContext);
   const [isToken, tokenIsLoading] = useToken(getTokenUrl);
 
