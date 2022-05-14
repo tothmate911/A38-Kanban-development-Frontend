@@ -19,9 +19,9 @@ For configuration and deployment, please see the Readme file of the [backend rep
 
 After the auto-redirecting to Gitlab authentication platform give these credentials:
 
-e-mail: gitlab_guest@indamail.hu
+e-mail: tothmate316@gmail.com
 
-password: guestPassword00
+password: kanban1!
 
 
 Issues can be ordered by assignee or story label. 
@@ -48,7 +48,7 @@ Story description can be a text or a link. Links are marked as this icon: ![link
 
 György Noémi,
 Hegedüs Enikő,
-Tóth Lajos Máté
+Tóth Máté
 
 ### Project Management:
 
