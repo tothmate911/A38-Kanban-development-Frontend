@@ -15,13 +15,13 @@ For configuration and deployment, please see the Readme file of the [backend rep
 
 ## Usage
 
+For instant test usage please go to:
 [http://a38-kanban.herokuapp.com](http://a38-kanban.herokuapp.com)
 
 After the auto-redirecting to Gitlab authentication platform give these credentials:
 
-e-mail: tothmate316@gmail.com
-
-password: kanban1!
+* e-mail: tothmate316@gmail.com
+* password: kanban1!
 
 
 Issues can be ordered by assignee or story label. 
