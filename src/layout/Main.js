@@ -23,7 +23,7 @@ const expandedStyle = {
 const Main = () => {
   const getSettingsOpenedFromLocalStorage = () => {
     let savedSettingsOpen = localStorage.getItem('settingsOpen');
-    return savedSettingsOpen === 'true' ? true : false;
+    return savedSettingsOpen === 'false' ? false : true;
   };
 
   const [settingsOpen, setSettingsOpen] = useState(
