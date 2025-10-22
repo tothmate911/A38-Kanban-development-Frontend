@@ -16,7 +16,7 @@ For configuration and deployment, please see the Readme file of the [backend rep
 ## Usage
 
 For instant test usage please go to:
-[http://a38-kanban.herokuapp.com](http://a38-kanban.herokuapp.com)
+[http://185.237.97.150:3000](http://34.139.217.62:3000)
 
 After the auto-redirecting to Gitlab authentication platform give these credentials:
 
